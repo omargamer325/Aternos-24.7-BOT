@@ -91,8 +91,8 @@ function createBot() {
   let newBot;
   try {
     newBot = mineflayer.createBot({
-      host: omargamer1980-nclp.aternos.me:23073,
-      port: serverPort,
+      host: omargamer1980-nclp.aternos.me:,
+      port: 23073,
       username: kalboth-971,
       version: 1.20.4,
       auth: 'offline',
