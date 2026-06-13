@@ -4,8 +4,8 @@ const http = require('http');
 const { Server } = require('socket.io');
 const mineflayer = require('mineflayer');
 
-const serverHost = process.env.SERVER_HOST || 'DOOMS_DAY_REBORN.aternos.me';
-const serverPort = parseInt(process.env.SERVER_PORT || '59173', 10);
+const serverHost = process.env.SERVER_HOST || 'omargamer1980-nclp.aternos.me:';
+const serverPort = parseInt(process.env.SERVER_PORT || '23073', 10);
 const botUsername = process.env.BOT_USERNAME || '247_Monitor';
 const minecraftVersion = process.env.MC_VERSION || false;
 const reconnectInterval = parseInt(process.env.RECONNECT_INTERVAL_MS || '40000', 10);
@@ -91,10 +91,10 @@ function createBot() {
   let newBot;
   try {
     newBot = mineflayer.createBot({
-      host: serverHost,
-      port: serverPort,
+      host: omargamer1980-nclp.aternos.me:,
+      port: 23073,
       username: botUsername,
-      version: minecraftVersion,
+      version:1.20.4,
       auth: 'offline',
       hideErrors: false,
     });
